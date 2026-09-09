@@ -1,0 +1,102 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Daniël Trujillo
+    - name: Email
+      value: danieltr@mit.edu
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in EECS
+      institution: Massachusetts Institute of Technology (MIT), Cambridge, MA, USA
+      year: 2023 - present
+      description:
+        - "CSAIL. Advisor: Mengjia Yan"
+    - title: MSc in Computer Science
+      institution: ETH Zürich, Zürich, Switzerland
+      year: 2020 - 2023
+      description:
+        - GPA 5.49 / 6.00 (ETH Medal)
+    - title: BSc in Computer Science
+      institution: Vrije Universiteit (VU) Amsterdam, Amsterdam, Netherlands
+      year: 2017 - 2020
+      description:
+        - GPA 9.3 / 10.0 (Cum Laude)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: PhD Research Intern, Security and Privacy
+      institution: NVIDIA
+      year: 2026
+    - title: Research Intern, Software HARdware Co-design (SHARC)
+      institution: Microsoft Research, Redmond, WA, USA
+      year: 2025
+      description:
+        - Researched exposing memory access internals to software
+        - Developed new mechanisms enabling safe memory de-duplication and reducing memory-access overheads
+    - title: Research Intern, Research and Advanced Development (RAD)
+      institution: AMD, Austin, TX, USA
+      year: 2024 - 2025
+      description:
+        - Researched more performant mitigations against transient execution attacks
+        - Contributed to software-only defenses for the Linux kernel, reducing overhead
+    - title: Offensive Security Research Intern, Intel Product Assurance and Security (IPAS)
+      institution: Intel Corporation, Zürich, Switzerland
+      year: 2022
+      description:
+        - Contributed to taint analysis prototype, specialized in finding stale data bugs semi-automatically
+        - Demonstrated existence of a known stale bug in Intel IP
+    - title: Intern, Cloud Data Platforms
+      institution: IBM Research, Zürich, Switzerland
+      year: 2021
+      description:
+        - Developed PoC of software abstraction of smartNIC storage-offloading functionalities
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - Intel Bug Bounty Program Bonus
+    - year: 2024
+      items:
+        - NDSEG Fellowship, U.S. Department of Defense
+    - year: 2023
+      items:
+        - Best Paper Award, MICRO 2023
+        - ETH Medal, ETH Zürich
+    - year: 2019
+      items:
+        - Best Hack & Use of Google Cloud, HackHarvard
+        - GLOBE Scholarship, VU Amsterdam
+
+- title: CVEs
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - CVE-2023-20569 (Inception / "SRSO"), AMD
+        - CVE-2022-23825 (Phantom / "Branch Type Confusion"), AMD
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant — Computer Engineering
+      institution: ETH Zürich, Zürich, Switzerland
+      year: 2022
+    - title: Teaching Assistant
+      institution: VU Amsterdam, Amsterdam, Netherlands
+      year: 2018 - 2020
+      description:
+        - Programming for Economists in Python, Computer Programming in C++, Physical Computing, Web Technology, Pervasive Computing, Natural Language Processing Technology
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Microarchitectural security
+      items:
+        - Transient execution attacks and their mitigation
+        - Hardware/software co-design for secure and performant systems

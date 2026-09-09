@@ -1,0 +1,23 @@
+"yan":
+  - firstname: ["Mengjia", "M."]
+    url: https://people.csail.mit.edu/mengjia/
+
+"razavi":
+  - firstname: ["Kaveh", "K."]
+    url: https://comsec.ethz.ch/people/kaveh-razavi/
+
+"wikner":
+  - firstname: ["Johannes", "J."]
+    url: https://comsec.ethz.ch/people/johannes-wikner/
+
+"wikner*":
+  - firstname: ["Johannes", "J."]
+    url: https://comsec.ethz.ch/people/johannes-wikner/
+
+"giuffrida":
+  - firstname: ["Cristiano", "C."]
+    url: https://www.cs.vu.nl/~giuffrida/
+
+"bos":
+  - firstname: ["Herbert", "H."]
+    url: https://www.cs.vu.nl/~herbertb/

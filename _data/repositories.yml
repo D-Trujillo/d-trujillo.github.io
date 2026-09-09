@@ -1,0 +1,9 @@
+github_users:
+  - Daniel-Trujillo
+
+repo_description_lines_max: 2
+
+github_repos:
+  - comsec-group/inception
+  - MATCHA-MIT/register-hiding-and-shadowcfi
+  - vusec/tlbdr
